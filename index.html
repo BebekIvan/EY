@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+
+    <script src="js/custom.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+
+    <title>EY zadatak</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div class="row hero">
+        <img src="images/headline_image.webp" alt="" />
+      </div>
+    </div>
+    <div class="container-fluid grey">
+      <div class="container">
+        <div class="text-center">
+          <h1>Daily pet facts - Love!</h1>
+        </div>
+        <div class="row cat animal">
+          <div class="col-md-4">
+            <img src="images/meow.webp" alt="" />
+          </div>
+          <div class="col-md-8 content">
+            <h2>The Cat</h2>
+            <p>
+              Cats have been domesticated for around 4,000 years. While they
+              were once valued for their hunting abilities, they are now valued
+              for their companionship and loving behaviour.
+              <br /><br />
+              While not well known, the collective nouns used for cats and
+              kittens are a clowder of cats and a kindle of kittens.
+              <br /><br />
+              Our domestic cats are known as little cats. They differ from large
+              cats such as lions and tigers because they are naturally active at
+              night and can purr.
+              <br /><br />
+              Cats are now the most popular pet in the UK and in the US.
+            </p>
+          </div>
+        </div>
+        <div class="row dog animal">
+          <div class="col-md-8 content">
+            <h2>The Dog</h2>
+            <p>
+              Domestic dogs have been companions to people for more than 15,000
+              years. There are more than 400 different breeds of dogs. PAWS or
+              your local animal shelter has a wide variety of breeds available
+              for adoption. The most popular types are the non-pedigree. They
+              are extra special because they are one-of-a-kind!
+              <br /><br />
+
+              In general, small dogs live longer than large dogs. Small dogs
+              such as terriers may live 20 years. Giant dogs like Great Danes
+              may live eight years. The average lifespan for a mixed breed dog
+              is 13 to 14 years. By making sure dogs have good food, regular
+              veterinary care, shelter and a loving family, they will live
+              longer, healthier lives.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <img src="images/woof.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Slideshow -->
+    <div class="container-fluid slideshow-container text-center">
+      <h1>Gallery</h1>
+      <div class="multiple-items">
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+        <div><img src="images/Rectangle.webp" alt="" /></div>
+      </div>
+      <div class="pagination text-center container">
+        <ul>
+          <li class="prev">
+            <img src="images/icons/arrow-left.svg" alt="" />
+          </li>
+          <li class="next">
+            <img src="images/icons/arrow-right.svg" alt="" />
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- Slideshow-END -->
+    <!-- Galerija -->
+    <div class="container">
+      <div class="row gallery">
+        <div
+          class="col-md-3 col-6 image-container d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_1.webp"
+          >
+            <img src="images/img_1.webp" alt="" class="img-fluid" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_2.webp"
+          >
+            <img src="images/img_2.webp" alt="" class="img-fluid" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_3.webp"
+          >
+            <img src="images/img_3.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_4.webp"
+          >
+            <img src="images/img_4.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_5.webp"
+          >
+            <img src="images/img_5.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_6.webp"
+          >
+            <img src="images/img_6.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-none d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_7.webp"
+          >
+            <img src="images/img_7.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-md-block d-lg-block d-xl-block d-xxl-block"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_8.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy 2.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy 3.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy 4.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy 5.webp" alt="" />
+          </a>
+        </div>
+        <div
+          class="col-md-3 col-6 image-container d-xl-none d-lg-none d-md-none d-xxl-none"
+        >
+          <a
+            href="#"
+            data-bs-toggle="modal"
+            data-bs-target="#img-modal"
+            data-bs-img="images/img_8.webp"
+          >
+            <img src="images/img_1 copy 7.webp" alt="" />
+          </a>
+        </div>
+      </div>
+      <!-- Galerija-END -->
+      <!-- Kontakt -->
+      <div class="row form text-center">
+        <h1>Contact</h1>
+        <form>
+          <div class="row">
+            <div class="col-md-6 col-12">
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                required
+                class="field"
+              /><br /><br />
+            </div>
+            <div class="col-md-6 col-12">
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                class="field"
+              /><br /><br />
+            </div>
+            <div class="col-md-12">
+              <label for="select">Select:</label>
+              <select id="select" name="select" required>
+                <option value="">--Select an option--</option>
+                <option value="Option 1">Macka</option>
+                <option value="Option 2">Pas</option>
+                <option value="Option 3">Hrcak</option></select
+              ><br /><br />
+            </div>
+          </div>
+
+          <input type="submit" id="submit-btn" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <!-- Kontakt-END -->
+
+    <!-- Modal-img -->
+    <div
+      class="modal modal-img fade"
+      id="img-modal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <img src="" class="img-fluid" id="modal-image" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal-form -->
+    <div class="modal fade" id="form-modal" tabindex="-1">
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Hvala na zainteresiranosti!</h4>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+              id="modal-close-btn"
+            ></button>
+          </div>
+          <div class="modal-body">
+            <p>Uspješna prijava.</p>
+          </div>
+          <div class="modal-footer">
+            <button
+              type="button"
+              class="btn btn-secondary"
+              id="modal-close-btn"
+              data-bs-dismiss="modal"
+            >
+              Close
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-12">
+            <h5>PET-FACTS.COM</h5>
+            <ul>
+              <li>
+                <a href="#">About us</a>
+              </li>
+              <li>
+                <a href="#">Careers</a>
+              </li>
+              <li>
+                <a href="#">FAQ</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <h5>OUR BRANDS</h5>
+            <ul>
+              <li>
+                <a href="#">Supercoat</a>
+              </li>
+              <li>
+                <a href="#">Fancy Feast</a>
+              </li>
+              <li>
+                <a href="#">Pro Plan</a>
+              </li>
+              <li>
+                <a href="#">Beyond</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 col-12">
+            <h5>CONTACT US</h5>
+            <ul>
+              <li>
+                <a href="#">Contact us</a>
+              </li>
+              <li>
+                <a href="#">Terms & Conditions</a>
+              </li>
+              <li>
+                <a href="#"> Privacy Policy</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-12 col-12 coppyright">
+            <p>
+              Copyright is a legal right, existing in many countries, that
+              grants the creator of an original work exclusive rights to
+              determine whether, and under what conditions, this original work
+              may be used by others.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Cookie -->
+    <div id="cookie-banner">
+      <p>
+        We use cookies to improve your browsing experience on our website. By
+        continuing to use our site, you consent to our use of cookies.
+      </p>
+      <button id="cookie-accept">Accept</button>
+      <button id="cookie-decline">Decline</button>
+    </div>
+    <!-- Cookie-END -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
+  </body>
+</html>
